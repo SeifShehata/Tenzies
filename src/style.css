@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #302c44;
+}
+.app--main {
+    background-color: #2B283A;
+    width: 360px;
+    height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app--div{
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    margin: 20px;
+    width: 320px;
+    height: 320px;
+    border: black 5px;
+}
+.main-title,
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.die-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.dice {
+    background-color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Adjust the font size as needed */
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    
+
+}
+.green {
+    background-color: #59E391;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Adjust the font size as needed */
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.roll-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #5035FF;
+    border-radius: 3px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    width:92px;
+    height:32px;
+    cursor: pointer;
+}
+.dice::-moz-selection {
+    background: transparent;
+  }
+  
+  .dice::selection {
+    background: transparent;
+  }
